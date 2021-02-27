@@ -1,0 +1,33 @@
+body {
+  height: 1980px;
+}
+.gallery__item {
+  margin-right: 20px;
+}
+.gallery__img {
+  border-radius: 94px 94px 94px 94px;
+  -moz-border-radius: 94px 94px 94px 94px;
+  -webkit-border-radius: 94px 94px 94px 94px;
+  border: 0px solid #000000;
+}
+#counter {
+  margin-bottom: 15px;
+}
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+#font-size-control {
+  display: flex;
+  margin-top: 20px;
+}
+#controls {
+  margin-top: 20px;
+}

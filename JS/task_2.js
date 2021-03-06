@@ -12,7 +12,9 @@ const ingredients = [
 const ulList = document.querySelector('#ingredients')
 
 let foodIngredients = ingredients.map(ingredient => {
-  let items = document.createElement("li");
-  items.textContent = ingredient;
-  return ulList.append(items);
+let item = document.createElement("li");
+item.textContent = ingredient;
+return item;
 })
+
+ulList.append(...foodIngredients);
